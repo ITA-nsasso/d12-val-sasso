@@ -1,0 +1,79 @@
+/* Site color palette */
+/* Normal CSS */
+/* On tag */
+body {
+  color: lightgrey;
+  background-color: #522218;
+}
+a {
+  color: #E67202;
+}
+a:hover {
+  color: #09D9C7;
+}
+form label {
+  color: white;
+}
+/* On class/Id */
+.title {
+  text-align: center;
+  margin: 2% 0;
+}
+.bg-color-sec {
+  background-color: #E67202;
+}
+.color-tertiary {
+  color: #09D9C7;
+}
+.my-carousel {
+  margin-top: 3%;
+}
+.sign-up-box {
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0 7px rgba(145, 145, 145, 0.3);
+}
+.btn-tertiary {
+  margin-top: 2%;
+  color: #fff;
+  background-color: #09D9C7;
+  border-color: #09D9C7;
+}
+#return-index-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-radius: 15px;
+  box-shadow: 0px 0 0 2px;
+}
+.test {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* Modified Bootstrap classes/Ids */
+.navbar {
+  padding: 1%;
+}
+.carousel-item {
+  max-height: 20%;
+}
+.carousel-item img {
+  max-height: 20%;
+}
+.carousel-inner img {
+  margin: auto;
+}
+.form-group {
+  margin: 2% 0;
+}
+/* Media Queries */
+@media screen and (max-width: 992px) {
+  #timbre-nz {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
